@@ -1,5 +1,8 @@
 # c-loading-place-holder
-[TOC]
+1. Documentation
+   1. [Getting started](https://github.com/Lanjidechao/sfdc-ui-placeholder-lwc#getting-started)
+   2. [Recommanded use case](https://github.com/Lanjidechao/sfdc-ui-placeholder-lwc#use-case)
+2. [Reference](https://github.com/Lanjidechao/sfdc-ui-placeholder-lwc#reference)
 
 a *light-weight* & *easy-to-use* loading place holder for lwc:zap: components​​.
 
@@ -10,7 +13,7 @@ a *light-weight* & *easy-to-use* loading place holder for lwc:zap: components​
 
 ## Documentation
 
-### Getting Started
+### <span id="getting-started">Getting Started</span>
 
 1. Deploy this component to your Org
 
@@ -28,7 +31,7 @@ a *light-weight* & *easy-to-use* loading place holder for lwc:zap: components​
 
 
 
-### Recommend Use Case
+### <span id="use-case">Recommend Use Case</span>
 
 I use this component while loading a large component, so it is recommended to control the display of the component using ```<template if:false={loaded}>...</template>```.
 
@@ -54,7 +57,7 @@ wiredRecords({error, data}) {
 
 You can also set the `loaded` flag to true inside a ```onload``` hook function while using ```lightning-record-edit-form``` such so the form is showed after the form is loaded.
 
-## Reference
+## <span id="reference">Reference</span>
 
 ### Attributes
 
